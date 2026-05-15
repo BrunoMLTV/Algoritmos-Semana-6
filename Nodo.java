@@ -9,10 +9,8 @@ package lab06;
  * @author LAB-USR-AREQUIPA
  */
 public class Nodo {
-
     int dato;
     Nodo siguiente;
-
     public Nodo(int dato) {
         this.dato = dato;
         this.siguiente = null;
