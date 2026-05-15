@@ -9,13 +9,10 @@ package lab06;
  * @author LAB-USR-AREQUIPA
  */
 public class Main {
-
     public static void main(String[] args) {
 
-        // =====================================
         // COLA CIRCULAR
-        // =====================================
-        System.out.println("===== COLA CIRCULAR =====");
+        System.out.println("COLA CIRCULAR");
 
         ColaCircular colaCircular = new ColaCircular(5);
 
@@ -30,11 +27,8 @@ public class Main {
 
         colaCircular.mostrar();
 
-
-        // =====================================
         // COLA CON LISTAS ENLAZADAS
-        // =====================================
-        System.out.println("\n===== COLA LISTA =====");
+        System.out.println("\nCOLA LISTA");
 
         ColaLista colaLista = new ColaLista();
 
@@ -49,11 +43,8 @@ public class Main {
 
         colaLista.mostrar();
 
-
-        // =====================================
         // COLA CON PRIORIDAD
-        // =====================================
-        System.out.println("\n===== COLA PRIORIDAD =====");
+        System.out.println("\nCOLA PRIORIDAD");
 
         ColaPrioridad colaPrioridad =
                 new ColaPrioridad(10);
